@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.success, .error, .warning{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+.success{
+    background-color: green;
+    color: white;
+}
+.warning{
+    background-color: orange;
+    color: white;
+}
+.error{
+    background-color: red;
+    color: white;
+}
+
+.headings{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+table {
+    width: auto;
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: aliceblue;
+    font-style: italic;
+}
+
+td {
+    font-size: 14px;
+    vertical-align: middle; 
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td form {
+    margin: 0;
+    display: inline-block; 
+}
+
+table td form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: gray;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 80px; 
+    text-align: center; 
+}
+
+table td form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.intro{
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display:inline-flex;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.profile {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}

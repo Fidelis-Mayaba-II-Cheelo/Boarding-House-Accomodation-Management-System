@@ -1,0 +1,1 @@
+alert("Student evicted from room successfully");

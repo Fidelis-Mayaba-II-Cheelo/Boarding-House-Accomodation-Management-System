@@ -1,0 +1,166 @@
+.top {
+    background-color: lightblue;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 24px;
+    height: 5rem;
+    margin-bottom: 20px;
+}
+
+
+.menu {
+    background-color: lightblue; 
+    color: aliceblue; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-style: italic; 
+    font-size: 18px; 
+    padding: 10px 0; 
+    height: 5rem; 
+}
+
+.menu a {
+    color: aliceblue; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 0 10px; 
+    font-family: Arial, sans-serif; 
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
+}
+
+.menu a.active {
+    background-color: rgba(255, 255, 255, 0.4); 
+    border-radius: 5px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+.headings {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: lightblue;
+    color: aliceblue;
+    font-style: italic;
+}
+
+td {
+    font-size: 14px;
+    vertical-align: middle; 
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td form {
+    margin: 0;
+    display: inline-block; 
+}
+
+table td form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: lightblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 80px; 
+    text-align: center; 
+}
+
+table td form input[type="submit"]:hover {
+    background-color: #007bff;
+}
+

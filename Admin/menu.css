@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px 0;
+    position: sticky;
+}
+
+.menu a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+
+    .menu a:last-child {
+        border-bottom: none;
+    }
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+#notification-badge {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.success, .error, .warning{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+.success{
+    background-color: green;
+    color: white;
+}
+.warning{
+    background-color: orange;
+    color: white;
+}
+.error{
+    background-color: red;
+    color: white;
+}

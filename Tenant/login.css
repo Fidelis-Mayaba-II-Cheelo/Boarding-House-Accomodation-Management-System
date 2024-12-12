@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.success, .error, .warning{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+.success{
+    background-color: green;
+    color: white;
+}
+.warning{
+    background-color: orange;
+    color: white;
+}
+.error{
+    background-color: red;
+    color: white;
+}
+
+.btn{
+    background-color: gainsboro;
+    color: white;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: normal;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: normal;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.form-container{
+    margin-top: 25px;
+    justify-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form-container, label {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contents{
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+}
+
+.header{
+    text-align: center;
+    background-color: #333;
+    border-radius: 5px;
+    border-bottom-left-radius: 0%;  
+    border-bottom-right-radius: 0%; 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.validation_style{
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+}

@@ -1,0 +1,1 @@
+alert("Student successfully deleted");
