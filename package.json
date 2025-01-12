@@ -36,7 +36,8 @@
         "chart.js": "2.9.4",
         "datatables.net-bs4": "1.10.24",
         "jquery": "3.6.0",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "startbootstrap-sb-admin-2": "file:"
     },
     "devDependencies": {
         "browser-sync": "2.26.14",
