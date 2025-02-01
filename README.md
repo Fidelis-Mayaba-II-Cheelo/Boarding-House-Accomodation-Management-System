@@ -1,1 +1,3 @@
 This is a prototype Student Accommodation Management System. I was bored so i decided to learn php and build something
+NOTE: You'll have to create two new folders in root folder to try out the application: Gallery and pictures(Exactly the way i have typed them)
+NOTE: You will also have to create your own .env files(In both the Admin and Tenant folders), see the .env.example file in both the Admin and the Tenant folders
